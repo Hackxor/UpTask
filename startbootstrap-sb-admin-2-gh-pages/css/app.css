@@ -1,0 +1,44 @@
+#btnAgregar{
+    background-color: #4e73df;
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+
+#btnAgregar:hover{
+    background-color: #3d5dbd;
+    transition: 0.5s;
+    
+}
+
+
+#form{
+   display: none;
+}
+
+.inputs{
+    margin-bottom: 10px;
+}
+
+.btnAgregar{
+   position: relative;
+   left: 45px;
+    background-color: #4e73df;
+    padding: 3px 3px 3px 3px;
+    color: white;
+    font-size: 12px;
+    border: none;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.btnDesaparecer{
+    position: relative;
+    left: 45px;
+    border: none;
+     padding: 3px 3px 3px 3px;
+     color: white;
+     font-size: 12px;
+     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+ }
+

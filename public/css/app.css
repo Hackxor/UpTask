@@ -1,0 +1,116 @@
+#btnAgregar{
+    background-color: #4e73df;
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+
+#btnAgregar:hover{
+    background-color: #3d5dbd;
+    transition: 0.5s;
+    
+}
+
+
+#form{
+   display: none;
+}
+
+.inputs{
+    margin-bottom: 10px;
+}
+
+.btnAgregar{
+   position: relative;
+   left: 45px;
+    background-color: #4e73df;
+    padding: 3px 3px 3px 3px;
+    color: white;
+    font-size: 12px;
+    border: none;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.btnDesaparecer{
+    position: relative;
+    left: 45px;
+    border: none;
+     padding: 3px 3px 3px 3px;
+     color: white;
+     font-size: 12px;
+     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+ }
+
+.labelcheck{
+    position: relative;
+    left: 10px;
+    font-size: 18px;
+}
+
+.checkEditado{
+    
+    width: 20px;
+    height: 20px;
+    position: relative;
+    left: 100%;
+}
+
+
+.parrafo{
+    text-align: center;
+}
+
+
+/** Listado Pendientes **/
+
+.listado-pendientes ul {
+    padding: 0;
+    list-style: none;
+}
+.listado-pendientes ul li {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.2rem;
+   
+}
+
+.listado-pendientes ul li i {
+    cursor: pointer;
+}
+.acciones i:last-child{
+    margin-left: 1rem;
+}
+.completo {
+    color: #00B762;
+}
+
+/* alertas */
+.alerta {
+    padding: .5rem;
+    text-align: center;
+    font-size: 10px;
+    font-weight: 900;
+    max-width: 300px;
+    margin: 0 auto 1rem auto;
+    text-transform: uppercase;
+}
+.errors {
+    color: rgb(255, 255, 255)!important;
+    background-color: red;
+    border-radius: 20px;
+}
+.errors p {
+    color: red!important;
+}
+
+
+.correcto {
+    color: rgb(255, 255, 255)!important;
+    background-color: rgb(81, 255, 37);
+    border-radius: 20px;
+}
+
+.correcto p {
+    color: rgb(255, 255, 255)!important;
+}
